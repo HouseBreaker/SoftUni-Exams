@@ -1,8 +1,9 @@
 package p04_LogParser;
 
-import sun.reflect.generics.tree.Tree;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -34,11 +35,5 @@ public class LogParser {
 
 			database.get(name).get(type).add(message);
 		}
-
-		Comparator<Map<String, TreeMap<String, ArrayList<String>>>> c =
-
-		database.entrySet().stream()
-				.sorted(c);
-
 	}
 }

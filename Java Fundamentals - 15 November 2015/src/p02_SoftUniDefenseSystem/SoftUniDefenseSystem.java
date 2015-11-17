@@ -9,7 +9,7 @@ public class SoftUniDefenseSystem {
 		Scanner in = new Scanner(System.in);
 
 		final Pattern pattern =
-				Pattern.compile("(?<name>[A-Z][a-z]+).+(?<drink>[A-Z][a-z]*[A-Z]).+[^\\d](?<quantity>\\d+)L");
+				Pattern.compile(".*?(?<name>[A-Z][a-z]{1,}).*?(?<drink>[A-Z][a-z]*[A-Z]).*?(?<quantity>\\d+)L");
 		double totalLiters = 0;
 
 		while (true) {
