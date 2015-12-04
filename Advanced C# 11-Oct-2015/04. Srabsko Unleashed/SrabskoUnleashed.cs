@@ -19,7 +19,6 @@ namespace Problem_04
 				// exit case
 				if (input == "End")
 				{
-					// todo: print info
 					break;
 				}
 
