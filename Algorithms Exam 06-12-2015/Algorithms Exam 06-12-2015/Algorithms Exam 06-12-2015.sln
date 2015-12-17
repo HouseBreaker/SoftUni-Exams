@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Combinatorics", "01. Combinatorics\01. Combinatorics.csproj", "{087FBEDA-8044-49DC-86C4-D0BA0EC2B488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Bridges", "02. Dynamic Optimization\02. Bridges.csproj", "{20052037-3E2A-451B-8268-479077247C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Messages", "Problem3\03. Messages.csproj", "{8C784281-FC55-4A1A-8BB4-B7C1114EABB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Rectangles", "Problem4\04. Rectangles.csproj", "{B6FA38B1-ED1E-4E41-A8DA-C91165028150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{087FBEDA-8044-49DC-86C4-D0BA0EC2B488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087FBEDA-8044-49DC-86C4-D0BA0EC2B488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087FBEDA-8044-49DC-86C4-D0BA0EC2B488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087FBEDA-8044-49DC-86C4-D0BA0EC2B488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20052037-3E2A-451B-8268-479077247C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20052037-3E2A-451B-8268-479077247C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20052037-3E2A-451B-8268-479077247C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20052037-3E2A-451B-8268-479077247C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C784281-FC55-4A1A-8BB4-B7C1114EABB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C784281-FC55-4A1A-8BB4-B7C1114EABB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C784281-FC55-4A1A-8BB4-B7C1114EABB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C784281-FC55-4A1A-8BB4-B7C1114EABB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FA38B1-ED1E-4E41-A8DA-C91165028150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FA38B1-ED1E-4E41-A8DA-C91165028150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FA38B1-ED1E-4E41-A8DA-C91165028150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FA38B1-ED1E-4E41-A8DA-C91165028150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
