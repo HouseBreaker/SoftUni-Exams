@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using Interfaces;
+﻿namespace BangaloreUniversityLearningSystem.Data
+{
+	using System;
+	using System.Collections.Generic;
 
-namespace buls.data
-{    
-    public class Repository<T> : IRepository<T>
+	using BangaloreUniversityLearningSystem.Interfaces;
+
+	public class Repository<T> : IRepository<T>
     {
         protected List<T> items;
 

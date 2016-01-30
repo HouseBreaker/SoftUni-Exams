@@ -1,6 +1,9 @@
-﻿namespace buls.utilities
+﻿namespace BangaloreUniversityLearningSystem.Utilities
 {
-    public static class UserRoleUtilities
+	using BangaloreUniversityLearningSystem.Core;
+	using BangaloreUniversityLearningSystem.Models;
+
+	public static class UserRoleUtilities
     {
         public static bool IsInRole(this User user, Role role)
         {

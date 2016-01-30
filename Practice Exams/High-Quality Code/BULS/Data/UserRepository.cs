@@ -1,16 +1,17 @@
-﻿namespace buls.Data
+﻿namespace BangaloreUniversityLearningSystem.Data
 {
-    using data;
-    using System.Collections.Generic;
-    using System.Linq;
+	using System.Collections.Generic;
+	using System.Linq;
 
-    public class UsersRepository : Repository<User>
+	using BangaloreUniversityLearningSystem.Models;
+
+	public class UsersRepository : Repository<User>
     {
         private Dictionary<string, User> usersByUsername;
 
-        public User GetByUsername(string username)
+		public User GetByUsername(string username)
         {
-            return this.items.FirstOrDefault(u => u.usr == username);
+            return this.items.FirstOrDefault(u => u.Username == username);
         }
     }
 }
