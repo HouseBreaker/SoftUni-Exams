@@ -7,16 +7,16 @@
 
 	public class Repository<T> : IRepository<T>
     {
-        protected List<T> items;
+		protected readonly List<T> Items;
 
         public Repository()
         {
-            this.items = new List<T>();
+            this.Items = new List<T>();
         }
 
         public virtual IEnumerable<T> GetAll()
         {
-            return this.items;
+            return this.Items;
         }
 
         public virtual T Get(int id)
@@ -24,7 +24,7 @@
             T item;
             try
             {
-                item = this.items[id - 1];
+                item = this.Items[id - 1];
             }
             catch (ArgumentOutOfRangeException)
             {
@@ -36,7 +36,7 @@
 
         public virtual void Add(T item)
         {
-            this.items.Add(item);
+            this.Items.Add(item);
         }
     }
 }

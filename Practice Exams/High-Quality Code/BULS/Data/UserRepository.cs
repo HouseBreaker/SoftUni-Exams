@@ -11,7 +11,7 @@
 
 		public User GetByUsername(string username)
         {
-            return this.items.FirstOrDefault(u => u.Username == username);
+            return this.Items.FirstOrDefault(u => u.Username == username);
         }
     }
 }
